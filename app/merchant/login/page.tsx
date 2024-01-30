@@ -10,11 +10,11 @@ export default function Login() {
             <div className="flex justify-center p-[12px]">
                 <Image src={LogoType.Logo} width={225} height={49} alt="logo" />
             </div>
-            <div className="flex-wrap md:flex justify-center pt-[136px] gap-9 border-black">
-                <div>
+            <div className="flex-wrap pt-3 md:flex md:pt-[136px] gap-1 justify-center">
+                <div className="w-[250px] md:w-[463px] h-auto ml-[75px] md:ml-0">
                 <Image src={LogoType.LogoLogin} width={436} height={361} alt="logo" />
                 </div>
-                <form className="w-full md:w-[442px] h-auto border-[2px] rounded-md p-4">
+                <form className="w-[350px] md:w-[440px] h-auto border-[2px] rounded-md p-4 m-5 md:m-0">
                     <h1 className="font-bold text-[32px] text-center">Masuk ke akun toko mu</h1>
                     <div className="pt-[18px]">
                         <TextField 
