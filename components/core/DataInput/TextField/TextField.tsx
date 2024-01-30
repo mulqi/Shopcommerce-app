@@ -12,7 +12,7 @@ export const TextField = forwardRef((_props: TextFieldProps, _) => {
 			{leftIcon && (
 				<div className="pl-[2px] absolute bottom-3 left-2">{leftIcon()}</div>
 			)}
-			<input {...props} className={$style} />
+			<input {...props} className={`${props.className} ${$style}`} />
 			{rightIcon && (
 				<div className="pr-[2px] absolute right-3 top-3">{rightIcon()}</div>
 			)}
