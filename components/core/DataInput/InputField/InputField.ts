@@ -1,7 +1,7 @@
-import { Fromfield } from "./FormField.types";
+import { Formfield } from "./FormField.types";
 
 
-export const InputFields : Fromfield[] = [
+export const InputFields : Formfield[] = [
     { placeholder: 'Nama depan' },
     { placeholder: 'Nama Belakang' },
     { placeholder: 'Email' },
